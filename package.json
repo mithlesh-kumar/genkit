@@ -1,0 +1,25 @@
+{
+  "name": "genkit",
+  "version": "0.0.1",
+  "description": "A command-line tool generator.",
+  "main": "index.js",
+  "bin": {
+    "genkit": "./index.js"
+  },
+  "keywords": [
+    "CLI"
+  ],
+  "author": "Mithlesh Kumar",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "clear": "0.0.1",
+    "clui": "^0.3.1",
+    "figlet": "^1.2.0",
+    "inquirer": "^3.0.6",
+    "svn-npm-crutch": "^0.5.4"
+  },
+  "scripts": {
+    "install": "node ./node_modules/svn-npm-crutch/lib/svn-npm-crutch.js"
+  }
+}
